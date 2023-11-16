@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: cyan;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.mariq.rasyid.latihanmf6.Fxml_inputController">
+   <children>
+      <Label layoutX="45.0" layoutY="9.0" text="Selamat Datang di WPA Libary">
+         <font>
+            <Font name="Magneto Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="40.0" text="Peminjam">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="70.0" text="Jenis Buku">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="100.0" text="Tanggal Pinjam">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="130.0" text="Tanggal Kembali">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderbtn" layoutX="10.0" layoutY="163.0" mnemonicParsing="false" onAction="#orderclick" style="-fx-background-color: lightgreen; -fx-cursor: hand;" text="Order">
+         <font>
+            <Font name="Tw Cen MT Bold Italic" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.6973684430122375" green="0.6812256574630737" blue="0.6812256574630737" />
+               </color>
+               <input>
+                  <Glow />
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="resetbtn" layoutX="230.0" layoutY="163.0" mnemonicParsing="false" onAction="#reset_click" style="-fx-background-color: gold; -fx-cursor: hand;" text="Reset">
+         <font>
+            <Font name="Tw Cen MT Bold Italic" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.6973684430122375" green="0.6812256574630737" blue="0.6812256574630737" />
+               </color>
+               <input>
+                  <Glow />
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextField fx:id="nametxt" layoutX="85.0" layoutY="40.0" prefHeight="25.0" prefWidth="175.0" />
+      <Label layoutX="80.0" layoutY="40.0" text=":">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="70.0" text=":">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="100.0" text=":">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="130.0" text=":">
+         <font>
+            <Font name="Onyx" size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="chbjenis" layoutX="85.0" layoutY="70.0" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker fx:id="pinjamtanggal" layoutX="85.0" layoutY="100.0" />
+      <DatePicker fx:id="tanggalkembali" layoutX="85.0" layoutY="130.0" />
+   </children>
+</AnchorPane>

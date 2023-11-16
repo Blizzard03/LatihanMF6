@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="405.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mariq.rasyid.latihanmf6.Fxml_outputController">
+   <children>
+      <Label layoutX="8.0" layoutY="25.0" text="Peminjam">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="5.0" text="Output">
+         <font>
+            <Font name="Wingdings 2" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="50.0" text="Jenis Buku">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="75.0" text="Tanggal Pinjam">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="100.0" text="Tanggal Kembali">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="125.0" text="--------------------------------------------------- -">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="150.0" text="Lama Pinjam">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="175.0" text="Batas Pinjam">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="200.0" text="--------------------------------------------------- +">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="225.0" text="Selisih">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="250.0" text="Denda/Hari">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="275.0" text="--------------------------------------------------- X">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="300.0" text="Denda">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="325.0" text="Bonus">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="25.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="50.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="75.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="100.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="150.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="175.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="225.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="250.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="300.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="325.0" text=":">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="closebtn" layoutX="350.0" mnemonicParsing="false" onAction="#close_click" prefWidth="30.0" style="-fx-background-color: red; -fx-cursor: hand;" text="X">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <InnerShadow choke="0.1" height="26.86" radius="15.129999999999999" width="35.66">
+               <color>
+                  <Color red="0.30263158679008484" green="0.30263158679008484" blue="0.30263158679008484" />
+               </color>
+            </InnerShadow>
+         </effect></Button>
+      <Label fx:id="Nama_Peminjamlbl" layoutX="130.0" layoutY="25.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Jenis_Bukulbl" layoutX="130.0" layoutY="50.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tanggal_Pinjamlbl" layoutX="130.0" layoutY="75.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="tglkembalilbl" layoutX="130.0" layoutY="100.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lamapinjamlbl" layoutX="130.0" layoutY="150.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="bataspinjamlbl" layoutX="130.0" layoutY="175.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="selisih_lbl" layoutX="130.0" layoutY="225.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="hargadendalbl" layoutX="130.0" layoutY="250.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dendalbl" layoutX="130.0" layoutY="300.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="bonuslbl" layoutX="130.0" layoutY="325.0" text="Label">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="150.0" text="Hari">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="175.0" text="Hari">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="225.0" text="Hari">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
